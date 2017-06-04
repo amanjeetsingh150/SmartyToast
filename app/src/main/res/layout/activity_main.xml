@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.developers.letstoast.MainActivity">
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/done"
+    android:layout_margin="5dp"
+    android:text="Done"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/error"
+        android:layout_margin="5dp"
+        android:text="ERROR"
+        android:layout_toRightOf="@+id/done"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/warning"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@+id/error"
+        android:text="WARNING"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/saved"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/warning"
+        android:layout_toRightOf="@+id/update"
+        android:text="SAVED"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/connected"
+        android:layout_below="@+id/done"
+        android:layout_margin="5dp"
+        android:text="Connected"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/update"
+        android:layout_toRightOf="@+id/connected"
+        android:layout_below="@+id/error"
+        android:layout_margin="5dp"
+        android:text="UPDATE"/>
+</RelativeLayout>
