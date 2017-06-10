@@ -9,7 +9,7 @@ Android library with collection of some smart toasts designs which will help in 
 <LI>Update Status(Updating...)</LI>
 </UL>
 
-[![](https://jitpack.io/v/amanjeetsingh150/SmartyToast.svg)](https://jitpack.io/#amanjeetsingh150/SmartyToast)<br><br>
+[![](https://jitpack.io/v/amanjeetsingh150/SmartyToast.svg)](https://jitpack.io/#amanjeetsingh150/SmartyToast) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Smarty%20Toast-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/5853)<br><br>
 <img src="https://cloud.githubusercontent.com/assets/12881364/26762716/777f7f70-4964-11e7-870f-4f92e6fabf1e.gif"><br><br>
 
 <b>DOWNLOAD
